@@ -2,9 +2,9 @@
 <resources>
     <string name="app_name">Date of confinement</string>
     <string name="action_settings">Settings</string>
-    <string name="lblFirst">first</string>
-    <string name="lnlMiddle">middle</string>
-    <string name="lblLast">last</string>
+    <string name="lblFirst">first (59d)</string>
+    <string name="lnlMiddle">middle (68d)</string>
+    <string name="lblLast">last (74d)</string>
     <string name="lblAuthor">Peter Šimkovič</string>
     <string name="lblAppVersion">App version</string>
 </resources>

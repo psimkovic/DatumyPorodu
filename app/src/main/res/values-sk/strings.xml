@@ -2,9 +2,9 @@
 <resources>
     <string name="app_name">Dátumy Pôrodu</string>
     <string name="action_settings">Nastavenia</string>
-    <string name="lblFirst">prvý</string>
-    <string name="lnlMiddle">stred</string>
-    <string name="lblLast">posledný</string>
+    <string name="lblFirst">prvý (59d)</string>
+    <string name="lnlMiddle">stred (68d)</string>
+    <string name="lblLast">posledný (74d)</string>
     <string name="lblAuthor">Peter Šimkovič</string>
     <string name="lblAppVersion">Verzia aplikácie</string>
 </resources>
