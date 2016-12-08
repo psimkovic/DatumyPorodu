@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Datumy Porodu</string>
+    <string name="app_name">Date of confinement</string>
     <string name="action_settings">Settings</string>
     <string name="lblFirst">first</string>
     <string name="lnlMiddle">middle</string>

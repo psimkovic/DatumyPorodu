@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
-        txtVerzia.setText(getString(R.string.lblAuthor)+", "+ getString(R.string.lblAppVersion) + versionName);
+        txtVerzia.setText(getString(R.string.lblAuthor) + ", " + getString(R.string.lblAppVersion) + " " + versionName);
     }
 
     private void findViewsById() {

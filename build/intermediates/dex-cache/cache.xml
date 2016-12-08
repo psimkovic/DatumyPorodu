@@ -1,3 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_99c1ccd53a7fa88549c32ac544faa9e96cd17557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_902d584066efcf555aa246711d691b2449e84abc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5119366c81dd625a729ef81b431d3b82661179a0">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ea249368e1e30d545b128be011ec740b8f8b7867\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="5aa7589a93e3f2eba990ba8901192e0469c9544c">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_82534de3808b558f6490b190b03819ca6d2d94c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_b813aeba1e014746537f3a65e86f366a947e6a39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_0106e24d9be5101071e8680afba224dbd25bf3bd\classes.dex" />
+    </item>
+
+</items>
