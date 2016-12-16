@@ -1,14 +1,20 @@
 package eu.chs_pk_cavies.psimkovic.datumyporodu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.text.InputType;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -24,6 +30,28 @@ public class MainActivity extends Activity {
     private EditText editText4;
     private TextView txtVerzia;
     public String versionName;
+    Button GoToNewActivity;
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater findMenuItems = getMenuInflater();
+        findMenuItems.inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(aboutIntent);
+                break;
+            case R.id.action_exit:
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +78,22 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
         txtVerzia.setText(getString(R.string.lblAuthor) + ", " + getString(R.string.lblAppVersion) + " " + versionName);
+        setDateTimeField();
+
+        GoToNewActivity = (Button)findViewById(R.id.button);
+        GoToNewActivity.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
     private void findViewsById() {

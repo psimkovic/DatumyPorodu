@@ -129,4 +129,12 @@
         android:layout_below="@+id/editText3"
         android:layout_alignEnd="@+id/txtVerzia" />
 
+    <Button
+        android:text="@string/action_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
