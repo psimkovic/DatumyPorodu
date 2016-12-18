@@ -17,33 +17,6 @@
         android:layout_alignParentEnd="true"
         android:textColor="#bababa" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/lblFirst"
-        android:id="@+id/textView"
-        android:layout_alignTop="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/lnlMiddle"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/lblLast"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/editText3"
-        android:layout_alignStart="@+id/editText3" />
-
     <DatePicker
         android:id="@+id/datePicker"
         android:layout_width="wrap_content"
@@ -70,27 +43,7 @@
         style="@android:style/Widget.DeviceDefault.DatePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:nestedScrollingEnabled="false"
-        android:maxLength="10"
-        android:enabled="true"
-        android:focusable="true"
-        android:textSize="26dp"
-        android:textAlignment="center"
-        android:backgroundTint="#0df944"
-        android:gravity="right"
-        android:maxLines="1"
-        android:textStyle="bold"
-        tools:targetApi="lollipop"
-        android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/txtVerzia" />
-
-    <EditText
-        style="@android:style/Widget.DeviceDefault.DatePicker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:width="150dp"
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText2"
@@ -98,7 +51,7 @@
         android:maxLength="10"
         android:enabled="true"
         android:focusable="true"
-        android:textSize="26dp"
+        android:textSize="23dp"
         android:textAlignment="center"
         android:backgroundTint="#ffaa00"
         android:gravity="right"
@@ -112,6 +65,29 @@
         style="@android:style/Widget.DeviceDefault.DatePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:width="150dp"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:nestedScrollingEnabled="false"
+        android:maxLength="10"
+        android:enabled="true"
+        android:focusable="true"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:backgroundTint="#0df944"
+        android:gravity="right"
+        android:maxLines="1"
+        android:textStyle="bold"
+        tools:targetApi="lollipop"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/txtVerzia" />
+
+    <EditText
+        style="@android:style/Widget.DeviceDefault.DatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="150dp"
         android:inputType="date"
         android:ems="10"
         android:id="@+id/editText4"
@@ -119,7 +95,7 @@
         android:maxLength="10"
         android:enabled="true"
         android:focusable="true"
-        android:textSize="26dp"
+        android:textSize="23dp"
         android:textAlignment="center"
         android:backgroundTint="#ffaa00"
         android:gravity="right"
@@ -136,5 +112,35 @@
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lblLast"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lnlMiddle"
+        android:id="@+id/textView2"
+        android:layout_marginStart="44dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/datePicker" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/lblFirst"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/textView2" />
 
 </RelativeLayout>
