@@ -5,9 +5,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.InputType;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -28,27 +25,6 @@ public class MainActivity extends Activity {
     private TextView txtVerzia;
     public String versionName;
     Button GoToNewActivity;
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater findMenuItems = getMenuInflater();
-        findMenuItems.inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_about:
-                Intent aboutIntent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(aboutIntent);
-                break;
-            case R.id.action_exit:
-                finish();
-                break;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
