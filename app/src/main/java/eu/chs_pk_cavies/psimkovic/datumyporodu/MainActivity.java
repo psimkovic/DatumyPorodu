@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.ImageButton;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import java.text.SimpleDateFormat;
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
     private TextView txtVerzia;
     public String versionName;
     private String[] arraySpinner;
-    ImageButton GoToNewActivity;
+    Button GoToNewActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,13 +58,14 @@ public class MainActivity extends Activity {
         txtVerzia.setText(getString(R.string.lblAuthor) + ", " + getString(R.string.lblAppVersion) + " " + versionName);
         setDateTimeField();
 
-        GoToNewActivity = (ImageButton)findViewById(R.id.imageButton);
+        GoToNewActivity = (Button)findViewById(R.id.button);
         GoToNewActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(intent);
             }
+
         });
 
         this.arraySpinner = new String[] {

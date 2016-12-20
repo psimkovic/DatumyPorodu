@@ -109,14 +109,13 @@
         android:layout_below="@+id/editText3"
         android:layout_alignEnd="@+id/txtVerzia" />
 
-    <ImageButton
+    <Button
+        android:text="@string/action_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_info_black_24dp"
-        android:id="@+id/imageButton"
+        android:id="@+id/button"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
