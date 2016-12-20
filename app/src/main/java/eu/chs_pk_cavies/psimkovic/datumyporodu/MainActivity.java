@@ -6,9 +6,12 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
-import android.widget.Button;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -22,9 +25,11 @@ public class MainActivity extends Activity {
     private EditText editText2;
     private EditText editText3;
     private EditText editText4;
+    private EditText editText5;
     private TextView txtVerzia;
     public String versionName;
-    Button GoToNewActivity;
+    private String[] arraySpinner;
+    ImageButton GoToNewActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,19 +58,52 @@ public class MainActivity extends Activity {
         txtVerzia.setText(getString(R.string.lblAuthor) + ", " + getString(R.string.lblAppVersion) + " " + versionName);
         setDateTimeField();
 
-        GoToNewActivity = (Button)findViewById(R.id.button);
+        GoToNewActivity = (ImageButton)findViewById(R.id.imageButton);
         GoToNewActivity.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
-
-                // Intent code for open new activity through intent.
-
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        this.arraySpinner = new String[] {
+                "59 "+getString(R.string.lblDni),
+                "60 "+getString(R.string.lblDni),
+                "61 "+getString(R.string.lblDni),
+                "62 "+getString(R.string.lblDni),
+                "63 "+getString(R.string.lblDni),
+                "64 "+getString(R.string.lblDni),
+                "65 "+getString(R.string.lblDni),
+                "66 "+getString(R.string.lblDni),
+                "67 "+getString(R.string.lblDni),
+                "68 "+getString(R.string.lblDni),
+                "69 "+getString(R.string.lblDni),
+                "70 "+getString(R.string.lblDni),
+                "71 "+getString(R.string.lblDni),
+                "72 "+getString(R.string.lblDni),
+                "73 "+getString(R.string.lblDni),
+                "74 "+getString(R.string.lblDni)
+        };
+        Spinner s = (Spinner) findViewById(R.id.spinner);
+        s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                Calendar c5 = Calendar.getInstance();
+                c5.setTime(newDate.getTime());
+                c5.add(Calendar.DATE, Integer.parseInt(arraySpinner[position].replace(" "+getString(R.string.lblDni),"")));
+                String newDateStr5 = dateFormatter.format(c5.getTime());
+                editText5.setText(newDateStr5);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
 
             }
         });
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, arraySpinner);
+        s.setAdapter(adapter);
 
     }
 
@@ -80,6 +118,9 @@ public class MainActivity extends Activity {
 
         editText4 = (EditText) findViewById(R.id.editText4);
         editText4.setInputType(InputType.TYPE_NULL);
+
+        editText5 = (EditText) findViewById(R.id.editText5);
+        editText5.setInputType(InputType.TYPE_NULL);
 
         txtVerzia = (TextView) findViewById(R.id.txtVerzia);
         txtVerzia.setInputType(InputType.TYPE_NULL);

@@ -2,67 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.0.0_34ad80178b0b79549eb8a5434aa8bd038eb6d261.jar" />
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_99c1ccd53a7fa88549c32ac544faa9e96cd17557\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\support-annotations-23.0.0_3f77e93e5ed0a0d7276beffe8309c2818d2dc483.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_b813aeba1e014746537f3a65e86f366a947e6a39\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-8.4.0_8d1c3b02cd791e97136bdbdc89f7ddc013f2df11.jar" />
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_0106e24d9be5101071e8680afba224dbd25bf3bd\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-appindexing-8.4.0_afe892ee3a71031ae1843fd0eb0b02192af959d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_cdf52419eab6c9cbc7e622370f7a77339da7284c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\internal_impl-23.0.0_452a4239f5f7e7afe243d7c398d70d38bdcf2790.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-21.0.3_902d584066efcf555aa246711d691b2449e84abc.jar" />
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_902d584066efcf555aa246711d691b2449e84abc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="060eef205794463ebe4f527045a5cc9176e301c7">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ea249368e1e30d545b128be011ec740b8f8b7867\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="dc9713dca9adb92273a59a7aeeb536b3d44b1e0f">
+        <dex dex="C:\Users\psimkovic\AndroidStudioProjects\DatumyPorodu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_82534de3808b558f6490b190b03819ca6d2d94c6\classes.dex" />
     </item>
 
 </items>
