@@ -3,6 +3,7 @@ package eu.chs_pk_cavies.psimkovic.datumyporodu;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.webkit.WebView;
 
 public class AboutActivity extends Activity {
@@ -14,6 +15,7 @@ public class AboutActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         setTitle(getString(R.string.action_about));
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         try {
             versionName = getApplicationContext().getPackageManager().getPackageInfo(getApplicationContext().getPackageName(), 0).versionName;
